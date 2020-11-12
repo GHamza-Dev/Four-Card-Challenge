@@ -10,6 +10,7 @@ body {
     color: rgb(76, 78, 97);
     width: 100vw;
     font-size: 15px;
+    overflow-x: hidden;
 }
 
 body p {
@@ -29,6 +30,7 @@ header {
     width: 60%;
     text-align: center;
     line-height: 1.4;
+    margin-top: 35px;
 }
 
 header .h1_1 {
@@ -139,3 +141,62 @@ header p {
         font-size: 1.9em;
     }
 }
+
+@media screen and (max-width:372px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+}
+
+
+/** Created by : GASSAI Hamza 
+/** https://github.com/GHamza-Dev
+/** UI Challenge : https://www.frontendmentor.io/challenges **/
+
+#madeBy {
+    margin-top: 100px;
+    background-color: #000;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding: 20px;
+    letter-spacing: 1.5px;
+}
+
+#madeBy .name {
+    font-size: 1.4rem;
+}
+
+#madeBy .ui {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+#madeBy a {
+    color: yellowgreen;
+}
+
+#madeBy ul {
+    list-style: none;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width:446px) {
+    #madeBy .name {
+        font-size: 1rem;
+    }
+    #madeBy .ui {
+        font-size: 1rem;
+    }
+}
+
+
+/*END ❤️*/
